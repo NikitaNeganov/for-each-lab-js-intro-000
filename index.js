@@ -6,3 +6,8 @@ function iterativeLog(array){
     console.log(`${index}: ${item}`)
   })
 }
+function iterate(callback){
+  let list = [1, 'pidor', 'sosiHer', {'key': 'value'}];
+  list.forEach(callback);
+  return list;
+}
